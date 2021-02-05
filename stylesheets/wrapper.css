@@ -1,0 +1,84 @@
+* {
+    /* outline: 2px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 130vh;
+    background-color: rgb(48, 68, 97);
+    color: white;
+}
+* #wrapper div{
+    padding: 1vh;
+}
+.header {
+    display: flex;
+    flex-flow: row;
+    flex: 0 0 20vh;
+    padding: 1vh 0px 1vh 0px;
+}
+img {
+    flex: 2;
+}
+.empty {
+    flex: 2;
+}
+.rightBar {
+    flex: 2;
+}
+.textSize {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 30px;
+    max-width: 250px;
+    margin: 0px 0px 3px 0px;
+}
+.textSize a {
+    color: yellow;
+    text-decoration: none;
+}
+.inputDiv {
+    display: inline-flex;
+    justify-content: center;
+    height: 80px;
+    width: 300px;
+    background-color: rgb(39, 39, 39);
+}
+input {
+    display: inline-flex;
+    align-self: center;
+    height: 40px;
+    margin: 0px 5px 0px 0px;
+}
+input[type=button] {
+    width: 35px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0 0 2vh;
+    margin: 0px 4vh 0px 4vh;
+    background-color: cornflowerblue;
+    list-style: none;
+}
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+.footer {
+    flex: 2;
+    background-image: linear-gradient(rgb(94, 109, 133),rgb(48, 68, 97))
+}
+.footer ul {
+    background: none;
+}
+.footer h4 {
+    text-align: center;
+}
+.footer a {
+    color: skyblue;
+}

@@ -1,0 +1,26 @@
+#whiteBox {
+    display: flex;
+    background: whitesmoke;
+}
+#whiteBox h2, #whiteBox p, #whiteBox ul {
+    margin: 0px 0px 2vh 0px;
+}
+.gettingStarted, .applications{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color: black;
+    border-top: 3px solid skyblue;
+}
+.gettingStarted {
+    margin: 0px 1vh 0px 0px;
+}
+#whiteBox ul {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    list-style: circle;
+}
+#whiteBox a {
+    color: skyblue;
+}
